@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Nunito, sans-serif;
+    background-color: #FFFFFB;
+}
+.layout{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+.layout-right{
+    position: absolute;
+    left: 600px;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+.header{
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 112px;
+}
+.logo{
+    position: relative;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    margin: 0 auto;
+    padding: 0 46px 191px 73px;
+    box-sizing: border-box;
+    grid-column-gap: 96px;
+}
+.main-image{
+    position: relative;
+    justify-self: end;
+    align-self: center;
+}
+.image-background{
+    z-index: 0
+}
+.image-top{
+    position: absolute;
+    left: 91px;
+    top: -71px;
+    z-index: 4;
+}
+
+.circle{
+    width: 290px;
+    height: 290px;
+    background-color: #DD3142;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.first-circle{
+    left: 45px;
+    top: 132px;
+    z-index: 3;
+}
+.second-circle{
+    left: 211px;
+    top: 199px;
+    z-index: 2;
+}
+.third-circle{
+    left: 226px;
+    top: 92px;
+    z-index: 1;
+}
+
+#form-name{
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 7px;
+}
+.form-description{
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+.placeholder{
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 100%;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    margin-bottom: 20px;
+    outline: none;
+    font-family: Nunito, sans-serif;
+}
+.terms{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+#terms{
+    margin-right: 10px;
+}
+.terms span{
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+.action{
+    margin-bottom: 44px;
+    text-align: center;
+}
+.button{
+    width: 210px;
+    height: 70px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.has-account{
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+#has-account{
+    text-decoration: none;
+}
+#has-account:visited{
+    color: #636363;
+}
+.popup{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.popup-content{
+    width: 500px;
+    text-align: center;
+    border: 3px solid white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.popup-content h1{
+    margin-bottom: 50px;
+    color: white;
+}
