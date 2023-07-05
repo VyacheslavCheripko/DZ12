@@ -22,7 +22,7 @@ body{
     left: 600px;
     width: 100%;
     height: 100%;
-    background-color: #E5E5E5;
+    background-color: #A5A5A5;
 }
 .header{
     text-align: center;
@@ -61,7 +61,7 @@ body{
     height: 290px;
     background-color: #DD3142;
     border-radius: 50%;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(10, 10, 10, 0.25);
     position: absolute;
 }
 .first-circle{
