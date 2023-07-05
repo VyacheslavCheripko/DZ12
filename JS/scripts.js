@@ -64,6 +64,9 @@ window.onload = function () {
         }
     }
     console.log('1');
+    console.log('2');
+    console.log('13');
+    console.log('15');
     document.getElementById('popup-action').addEventListener('click', popupClose);
     document.getElementById('has-account').addEventListener('click', popupClose);
 }
