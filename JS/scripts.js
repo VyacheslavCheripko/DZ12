@@ -63,6 +63,7 @@ window.onload = function () {
             alert('Добро пожаловать, ' + document.getElementById('username').value);
         }
     }
+    console.log('1');
     document.getElementById('popup-action').addEventListener('click', popupClose);
     document.getElementById('has-account').addEventListener('click', popupClose);
 }
