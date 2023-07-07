@@ -68,4 +68,5 @@ window.onload = function () {
     document.getElementById('has-account').addEventListener('click', popupClose);
     console.log('1');
     console.log('developer message');
+    console.log('message');
 }
